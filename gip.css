@@ -5,6 +5,33 @@ header {
   height: 100px;
   background-color: #bed62f;
 }
+header ul{
+  list-style-type: none;
+  display: inline-block;
+}
+header ul li{
+  display: inline-block;
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 2px solid #f5821f;
+  color: #00b0b5;
+}
+
+header ul li:first-child{
+  display: inline-block;
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: none;
+  color: #00b0b5;
+}
+
+header ul li a{
+  text-decoration-line: none;
+}
+
+
 #container {
   background-color: #00b0b5;
   height: 100px;
