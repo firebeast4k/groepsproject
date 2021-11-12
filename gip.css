@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+}
+header {
+  height: 100px;
+  background-color: #bed62f;
+}
+#container {
+  background-color: #00b0b5;
+  height: 100px;
+}
+footer {
+  background-color: #f5821f;
+  height: 100px;
+}
